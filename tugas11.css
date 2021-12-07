@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    cursor: pointer;;
+  }
+
+  .span {
+      column-span: all;
+  }
+
+  .content {
+    height: 700px;
+    column-width: 300px;
+    column-fill: balance;
+    column-gap: 10px;
+    column-rule: 2px double black;
+  }
+
+  .footer {
+      display: block;
+      margin: 0;
+      padding: 2px;
+      background-color: black;
+  }
+  h2 {
+      text-align: center;
+      color: white;
+      font-size: 16px;
+  }
